@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/data_upload" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:textSize="25dp"
+        android:background="@drawable/checkbox" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_below="@+id/checkBox1"
+        android:textSize="25dp"
+        android:background="@drawable/checkbox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:textSize="25dp"
+        android:background="@drawable/checkbox" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox3"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:src="@drawable/ok_button" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox1"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/images_text" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignTop="@+id/checkBox2"
+        android:layout_toRightOf="@+id/checkBox2"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/comment_text" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignTop="@+id/checkBox3"
+        android:layout_toRightOf="@+id/checkBox3"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/rating_text" />
+
+</RelativeLayout>
