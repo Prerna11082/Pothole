@@ -1,7 +1,6 @@
 package com.mc.app5;
 
 import java.util.Locale;
-
 import com.google.android.gms.maps.GoogleMap;
 
 import android.app.ActionBar;
